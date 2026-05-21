@@ -1,0 +1,29 @@
+{
+  "name": "w3bix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "ecdsa-sig-formatter": "^1.0.11",
+    "express": "^5.2.1",
+    "firebase": "^12.10.0",
+    "firebase-admin": "^13.7.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.3",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  }
+}
